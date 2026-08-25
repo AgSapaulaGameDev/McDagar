@@ -38,12 +38,20 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
+<<<<<<< Updated upstream
+=======
+  m_IndirectSpecularColor: {r: 887.1192, g: 1426.3693, b: 2569.1936, a: 1}
+>>>>>>> Stashed changes
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
+<<<<<<< Updated upstream
   serializedVersion: 13
   m_BakeOnSceneLoad: 0
+=======
+  serializedVersion: 12
+>>>>>>> Stashed changes
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -199,9 +207,12 @@ Light:
   m_ForceVisible: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 2.5
+<<<<<<< Updated upstream
   m_LightUnit: 2
   m_LuxAtDistance: 1
   m_EnableSpotReflector: 0
+=======
+>>>>>>> Stashed changes
 --- !u!4 &157207114
 Transform:
   m_ObjectHideFlags: 0
@@ -232,14 +243,24 @@ MonoBehaviour:
   m_PointlightHDType: 0
   m_SpotLightShape: 0
   m_AreaLightShape: 0
+<<<<<<< Updated upstream
   m_EnableSpotReflector: 0
   m_LightUnit: 2
   m_LuxAtDistance: 1
   m_Intensity: 130000
+=======
+  m_Intensity: 130000
+  m_EnableSpotReflector: 0
+  m_LuxAtDistance: 1
+>>>>>>> Stashed changes
   m_InnerSpotPercent: 0
   m_SpotIESCutoffPercent: 100
   m_LightDimmer: 1
   m_VolumetricDimmer: 1
+<<<<<<< Updated upstream
+=======
+  m_LightUnit: 2
+>>>>>>> Stashed changes
   m_FadeDistance: 10000
   m_VolumetricFadeDistance: 10000
   m_AffectDiffuse: 1
@@ -259,7 +280,10 @@ MonoBehaviour:
   m_IESPoint: {fileID: 0}
   m_IESSpot: {fileID: 0}
   m_IncludeForRayTracing: 1
+<<<<<<< Updated upstream
   m_IncludeForPathTracing: 1
+=======
+>>>>>>> Stashed changes
   m_AreaLightShadowCone: 120
   m_UseScreenSpaceShadows: 0
   m_InteractsWithSky: 1
@@ -269,16 +293,21 @@ MonoBehaviour:
   diameterOverride: 0.5
   celestialBodyShadingSource: 1
   sunLightOverride: {fileID: 0}
+<<<<<<< Updated upstream
   sunColor:
     r: 1
     g: 1
     b: 1
     a: 1
+=======
+  sunColor: {r: 1, g: 1, b: 1, a: 1}
+>>>>>>> Stashed changes
   sunIntensity: 130000
   moonPhase: 0.2
   moonPhaseRotation: 0
   earthshine: 1
   flareSize: 2
+<<<<<<< Updated upstream
   flareTint:
     r: 1
     g: 1
@@ -292,6 +321,13 @@ MonoBehaviour:
     g: 1
     b: 1
     a: 1
+=======
+  flareTint: {r: 1, g: 1, b: 1, a: 1}
+  flareFalloff: 4
+  flareMultiplier: 1
+  surfaceTexture: {fileID: 0}
+  surfaceTint: {r: 1, g: 1, b: 1, a: 1}
+>>>>>>> Stashed changes
   m_Distance: 1.5e+11
   m_UseRayTracedShadows: 0
   m_NumRayTracingSamples: 4
@@ -335,11 +371,15 @@ MonoBehaviour:
     m_UseOverride: 1
     m_Level: 0
   m_RayTracedContactShadow: 0
+<<<<<<< Updated upstream
   m_ShadowTint:
     r: 0
     g: 0
     b: 0
     a: 1
+=======
+  m_ShadowTint: {r: 0, g: 0, b: 0, a: 1}
+>>>>>>> Stashed changes
   m_PenumbraTint: 0
   m_NormalBias: 0.75
   m_SlopeBias: 0.5
@@ -352,7 +392,10 @@ MonoBehaviour:
   m_BarnDoorLength: 0.05
   m_preserveCachedShadow: 0
   m_OnDemandShadowRenderOnPlacement: 1
+<<<<<<< Updated upstream
   forceRenderOnPlacement: 0
+=======
+>>>>>>> Stashed changes
   m_ShadowCascadeRatios:
   - 0.05
   - 0.2
@@ -368,6 +411,7 @@ MonoBehaviour:
   useOldInspector: 0
   useVolumetric: 1
   featuresFoldout: 1
+<<<<<<< Updated upstream
   m_Light: {fileID: 157207113}
   m_ChildEmissiveMeshViewer: {fileID: 0}
   m_EmissiveMeshFilter: {fileID: 0}
@@ -380,6 +424,12 @@ MonoBehaviour:
   m_AreaLightEmissiveMeshLayer: -1
   m_Version: 13
   m_LightLayers: 1
+=======
+  m_AreaLightEmissiveMeshShadowCastingMode: 0
+  m_AreaLightEmissiveMeshMotionVectorGenerationMode: 0
+  m_AreaLightEmissiveMeshLayer: -1
+  m_Version: 12
+>>>>>>> Stashed changes
   m_ObsoleteShadowResolutionTier: 1
   m_ObsoleteUseShadowQualitySettings: 0
   m_ObsoleteCustomShadowResolution: 512
@@ -418,10 +468,13 @@ MonoBehaviour:
   blendDistance: 0
   weight: 1
   sharedProfile: {fileID: 11400000, guid: 8ba92e2dd7f884a0f88b98fa2d235fe7, type: 2}
+<<<<<<< Updated upstream
   m_Colliders: []
   m_PreviousLayer: 0
   m_PreviousPriority: 0
   m_InternalProfile: {fileID: 0}
+=======
+>>>>>>> Stashed changes
 --- !u!4 &432432461
 Transform:
   m_ObjectHideFlags: 0
@@ -437,6 +490,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
 --- !u!1 &1710629328
 GameObject:
   m_ObjectHideFlags: 0
@@ -545,6 +599,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> Stashed changes
 --- !u!1 &1823688464
 GameObject:
   m_ObjectHideFlags: 0
@@ -650,6 +706,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23c1ce4fb46143f46bc5cb5224c934f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   m_Camera: {fileID: 1823688466}
   clearColorMode: 0
   backgroundColorHDR:
@@ -659,6 +716,13 @@ MonoBehaviour:
     a: 0
   clearDepth: 1
   volumeLayerMask:
+=======
+  clearColorMode: 0
+  backgroundColorHDR: {r: 0.025, g: 0.07, b: 0.19, a: 0}
+  clearDepth: 1
+  volumeLayerMask:
+    serializedVersion: 2
+>>>>>>> Stashed changes
     m_Bits: 1
   volumeAnchorOverride: {fileID: 0}
   antialiasing: 2
@@ -691,6 +755,10 @@ MonoBehaviour:
   customRenderingSettings: 0
   invertFaceCulling: 0
   probeLayerMask:
+<<<<<<< Updated upstream
+=======
+    serializedVersion: 2
+>>>>>>> Stashed changes
     m_Bits: 4294967295
   hasPersistentHistory: 0
   screenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
@@ -708,15 +776,21 @@ MonoBehaviour:
   fidelityFX2SuperResolutionUseOptimalSettings: 1
   fidelityFX2SuperResolutionEnableSharpening: 0
   fidelityFX2SuperResolutionSharpening: 0
+<<<<<<< Updated upstream
   cameraCanRenderDLSS: 0
   cameraCanRenderFSR2: 0
   cameraCanRenderSTP: 0
+=======
+>>>>>>> Stashed changes
   fsrOverrideSharpness: 0
   fsrSharpness: 0.92
   exposureTarget: {fileID: 0}
   materialMipBias: 0
+<<<<<<< Updated upstream
   probeCustomFixedExposure: 1
   deExposureMultiplier: 1
+=======
+>>>>>>> Stashed changes
   m_RenderingPathCustomFrameSettings:
     bitDatas:
       data1: 72198262773251917
@@ -732,17 +806,23 @@ MonoBehaviour:
     sssCustomSampleBudget: 20
     sssCustomDownsampleSteps: 0
     msaaMode: 9
+<<<<<<< Updated upstream
     sssResolvedSampleBudget: 0
     sssResolvedDownsampleSteps: 0
+=======
+>>>>>>> Stashed changes
     materialQuality: 0
   renderingPathCustomFrameSettingsOverrideMask:
     mask:
       data1: 0
       data2: 0
   defaultFrameSettings: 0
+<<<<<<< Updated upstream
   m_IsDebugRegistered: 0
   m_CameraRegisterName: Main Camera
   <isEditorCameraPreview>k__BackingField: 0
+=======
+>>>>>>> Stashed changes
   m_Version: 9
   m_ObsoleteRenderingPath: 0
   m_ObsoleteFrameSettings:
@@ -820,6 +900,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Profile: {fileID: 11400000, guid: 8ba92e2dd7f884a0f88b98fa2d235fe7, type: 2}
+<<<<<<< Updated upstream
   m_NeedUpdateStaticLightingSky: 0
   m_StaticLightingSkyUniqueID: 4
   m_LastComputedHash: 0
@@ -837,6 +918,11 @@ MonoBehaviour:
   m_VolumeSkyList:
   - {fileID: -7724654706381055090, guid: 8ba92e2dd7f884a0f88b98fa2d235fe7, type: 2}
   m_VolumeCloudsList: []
+=======
+  m_StaticLightingSkyUniqueID: 4
+  m_StaticLightingCloudsUniqueID: 0
+  m_StaticLightingVolumetricClouds: 0
+>>>>>>> Stashed changes
 --- !u!4 &2013410475
 Transform:
   m_ObjectHideFlags: 1
@@ -860,4 +946,7 @@ SceneRoots:
   - {fileID: 157207114}
   - {fileID: 432432461}
   - {fileID: 2013410475}
+<<<<<<< Updated upstream
   - {fileID: 1710629332}
+=======
+>>>>>>> Stashed changes
